@@ -1,0 +1,20 @@
+// Definición de variables numéricas
+let a = 10;
+let b = 5;
+
+// Suma de números
+let sumaNumerica = a + b;
+console.log("Suma numérica:", sumaNumerica); // 15
+
+// Definición de variables como strings
+let aStr = "10";
+let bStr = "5";
+
+// Concatenación de strings
+let concatenacion = aStr + bStr;
+console.log("Concatenación de strings:", concatenacion); // "105"
+
+// Conversión de strings a números y suma
+let sumaConvertida = Number(aStr) + Number(bStr);
+console.log("Suma con conversión:", sumaConvertida); // 15
+
